@@ -620,3 +620,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
+#banner{
+    height:40rem;
+}
+#banner_logo {
+    width: 80%;
+}
