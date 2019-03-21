@@ -1,22 +1,45 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Logo from "../images/logo.svg"
+import Settings from "../images/settings.svg"
 
+const ListItem = (img_src, description) => (
+    <div className="col-md-4 text-center">
+      <Settings className="highlight m-3" style={{width: '100px'}} />
+      <p>
+        {description}
+      </p>
+    </div>
+);
 
 const IndexPage = () => (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <Container>
-        <div id="banner" className="align-items-center d-flex justify-content-center pb-5">
-          <p className="display-3 text-center">Lorem ipsum dolor sit amet, consectetur?
-            Adipiscing elit.</p>
+      <div id="banner_base">
+      <div className="diagonal_cut">
+      <div className="p-4 text-left">
+      <Logo className="navbar-brand highlight" />
+      </div>
+      </div>
+          <div id="banner" className="align-items-center d-flex justify-content-center">
+        <Container>
+            <p className="banner_text">Lorem ipsum dolor sit amet, consectetur?
+              Adipiscing elit.</p>
+        </Container>
         </div>
+        <div className="diagonal_cut_2">
+          </div>
+      </div>
+      <Container className="p-5">
         <div>
-          <p>
+          <h2>
+            Morbi ultrices facilisi cras?
+          </h2>
+          <p className="mt-5">
             Cubilia suspendisse facilisi cum vitae torquent convallis justo
             odio. Neque torquent neque enim quisque laoreet congue semper auctor
             justo et sapien. Morbi ultrices facilisi cras? Tempus mi non sit
@@ -28,33 +51,28 @@ const IndexPage = () => (
           </p>
         </div>
         <Row className="mt-5 mb-5">
-          <div className="col-md-4 text-center">
-            <img
-              src="https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png"
-            />
-            <p>
-            <b>Neque torquent</b>
-            </p>
-          </div>
-          <div className="col-md-4 text-center">
-            <img
-              src="https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png"
-            />
-            <p>
-            <b>Ultrices</b>
-            </p>
-          </div>
-          <div className="col-md-4 text-center">
-            <img
-              src="https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png"
-            />
-            <p>
-            <b>Libero dolor</b>
-            </p>
-          </div>
+          {ListItem("https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png",
+                    "Neque, torquent")}
+          {ListItem("https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png",
+                    "Adipiscing ")}
+          {ListItem("https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png",
+                    "Cubilia suspendisse")}
         </Row>
-      </Container>
+        <div className="spacer">
+        </div>
+        <div>
+          <h2>
+            Purus sit sapien
+          </h2>
+          <p className="m-0">
+            ultrices@phiabo.com
+          </p>
+          <p>
+            +358 44 000 0000
+          </p>
+        </div>
+        </Container>
     </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

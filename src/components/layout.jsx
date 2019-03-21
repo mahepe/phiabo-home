@@ -10,8 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet";
 
-import "./layout.css"
-import Header from "./header"
+import "./layout.scss"
 
 const Layout = ({ children }) => (
     <StaticQuery
@@ -26,15 +25,7 @@ const Layout = ({ children }) => (
     `}
       render={data => (
           <>
-            <Header />
-            <div
-              style={{
-                  margin: `0 auto`,
-                  maxWidth: 960,
-                  padding: `0px 1.0875rem 1.45rem`,
-                  paddingTop: 0,
-              }}
-            >
+            <div>
               <Helmet>
                 <link
                   rel="stylesheet"
@@ -48,8 +39,12 @@ const Layout = ({ children }) => (
                   integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y"
                   crossorigin="anonymous"
                 />
+                <link
+                  href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|Share+Tech+Mono"
+                  rel="stylesheet"
+                />
               </Helmet>
-              <main>{children}</main>
+              {children}
             </div>
           </>
       )}
