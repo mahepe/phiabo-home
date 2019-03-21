@@ -623,6 +623,14 @@ pre tt:after {
 #banner{
     height:40rem;
 }
-#banner_logo {
-    width: 80%;
+.navbar-brand
+{
+    position: relative;
+    width: 170px;
+    left: 15px;
+    max-height: 70px; /* height of the navbar */
+}
+.offering-item{
+    display: flex;
+    align-items: center;
 }
