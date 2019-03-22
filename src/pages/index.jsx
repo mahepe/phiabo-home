@@ -27,8 +27,8 @@ const IndexPage = () => (
       </div>
           <div id="banner" className="align-items-center d-flex justify-content-center">
         <Container>
-            <p className="banner_text">Lorem ipsum dolor sit amet, consectetur?
-              Adipiscing elit.</p>
+          <p className="banner_text">Miltä yrityksesi liiketoiminta näyttää
+            vuonna 2025?</p>
         </Container>
         </div>
         <div className="diagonal_cut_2">
@@ -37,7 +37,7 @@ const IndexPage = () => (
       <Container className="p-5">
         <div>
           <h2>
-            Morbi ultrices facilisi cras?
+            Autamme sinua ottamaan tuottavuusloikan
           </h2>
           <p className="mt-5">
             Cubilia suspendisse facilisi cum vitae torquent convallis justo
@@ -52,11 +52,11 @@ const IndexPage = () => (
         </div>
         <Row className="mt-5 mb-5">
           {ListItem("https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png",
-                    "Neque, torquent")}
+                    "Tekoäly")}
           {ListItem("https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png",
-                    "Adipiscing ")}
+                    "Pilvipalvelut")}
           {ListItem("https://uudenmaanseuramatkat.fi/wp-content/uploads/2018/11/placeholder.png",
-                    "Cubilia suspendisse")}
+                    "Integraatiot")}
         </Row>
         <div className="spacer">
         </div>
