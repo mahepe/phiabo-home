@@ -55,15 +55,14 @@ const IndexPage = () => {
           <Container className="p-5">
             <div>
               <h2>
-                Autamme sinua ottamaan tuottavuusloikan
+                Ota tuottavuusloikka
               </h2>
               <p className="mt-5">
-                Olemme kokeneita IT-alan ammattilaisia, valmiina etsimään
-                kanssasi ratkaisuja laajan kirjoon liiketoiminnan
-                haasteita. Oli kyseessä sitten rutiininomaisten tehtävien
-                automatisointi ohjelmistorobotiikan ja tekoälyn keinoin tai
-                modernin pilvialustan käyttöönotto, olemme kumppanisi, kun
-                olet valmis saavuttamaan digitaalisten valmiuksien uuden
+                Olemme kokeneita IT-alan ammattilaisia valmiina etsimään kanssasi ratkaisuja
+                laajaan kirjoon liiketoiminnan haasteita. Oli kyseessä sitten
+                rutiininomaisten tehtävien automatisointi ohjelmistorobotiikan
+                ja tekoälyn keinoin tai modernin pilvialustan käyttöönotto,
+                autamme sinua saavuttamaan digitaalisten valmiuksien uuden
                 tason. Miltä yrityksesi liiketoiminta näyttää vuonna 2025? Mitä
                 jos saavuttaisit sen jo paljon aiemmin?
               </p>

@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet";
+import Container from "react-bootstrap/Container";
 
 import "./layout.scss"
 
@@ -46,16 +47,18 @@ const Layout = ({ children }) => (
               </Helmet>
               {children}
             </div>
-            <footer className="text-center pb-1">
-              <div>Icons made by <a href="https://www.freepik.com/"
-                                    title="Freepik">Freepik</a> from <a
-                                                                       href="https://www.flaticon.com/"
-                                                                      title="Flaticon">www.flaticon.com</a>
-                . Licensed by <a
+              <footer className="text-center pb-1">
+            <Container>
+                <div>Icons made by <a href="https://www.freepik.com/"
+                                 title="Freepik">Freepik</a> from <a
+                                                                   href="https://www.flaticon.com/"
+                                                                   title="Flaticon">www.flaticon.com</a>
+                  . Licensed by <a
                                  href="http://creativecommons.org/licenses/by/3.0/"
                                  title="Creative Commons BY 3.0"
                                  target="_blank">CC 3.0 BY</a></div>
-            </footer>
+            </Container>
+              </footer>
           </>
       )}
     />
