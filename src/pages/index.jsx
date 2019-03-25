@@ -3,24 +3,9 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Row from "react-bootstrap/Row";
-import Human from "../images/hop.svg"
-import Plants from "../images/Plants.svg"
-import Home from "../images/Home.svg"
-import Settings from "../images/settings.svg"
-import Brain from "../images/brain.svg"
-import Cloud from "../images/cloud.svg"
-import { useStaticQuery, graphql } from "gatsby"
-
-const ListItem = (svg, description) => (
-    <div className="col-md-4 text-center">
-      {svg}
-      <p>
-        <b>{description}</b>
-      </p>
-    </div>
-);
-
+import Human from "../images/hop.svg";
+import Home from "../images/Home.svg";
+import { useStaticQuery, graphql } from "gatsby";
 
 const IndexPage = () => {
     const { site } = useStaticQuery(
