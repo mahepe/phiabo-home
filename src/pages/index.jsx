@@ -63,7 +63,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="bg-color-blue">
-            <Container className="p-5">
+            <Container className="pb-5 pl-5 pr-5">
               <div>
                 <div className="spacer">
                 </div>
