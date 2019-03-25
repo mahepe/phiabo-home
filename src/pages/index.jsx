@@ -1,10 +1,12 @@
 import React from "react";
 
+import Container from "react-bootstrap/Container";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Logo from "../images/logo.svg"
+import Human from "../images/hop.svg"
+import Plants from "../images/Plants.svg"
+import Home from "../images/Home.svg"
 import Settings from "../images/settings.svg"
 import Brain from "../images/brain.svg"
 import Cloud from "../images/cloud.svg"
@@ -41,7 +43,7 @@ const IndexPage = () => {
           <div id="banner_base">
             <div className="diagonal_cut">
               <div className="p-4 text-left">
-                <Logo className="navbar-brand highlight" />
+                <h1 class="logo">phiabo</h1>
               </div>
             </div>
             <div id="banner" className="align-items-center d-flex justify-content-center">
@@ -53,17 +55,18 @@ const IndexPage = () => {
             </div>
           </div>
           <Container className="p-5">
+            <div id="human"><Human></Human></div>
+            <div id="home"><Home></Home></div>
             <div>
               <h2>
                 Ota tuottavuusloikka
               </h2>
-              <p className="mt-5">
+              <p className="mt-5 info">
                 Olemme kokeneita IT-alan ammattilaisia valmiina etsimään kanssasi ratkaisuja
                 laajaan kirjoon liiketoiminnan haasteita. Oli kyseessä sitten
-                rutiininomaisten tehtävien automatisointi ohjelmistorobotiikan
-                ja tekoälyn keinoin tai modernin pilvialustan käyttöönotto,
+                rutiininomaisten tehtävien automatisointi tekoälyn keinoin tai modernin pilvialustan käyttöönotto,
                 autamme sinua saavuttamaan digitaalisten valmiuksien uuden
-                tason. Miltä yrityksesi liiketoiminta näyttää vuonna 2025? Mitä
+                tason. Miltä yrityksesi liiketoiminta näyttää vuonna 2030? Mitä
                 jos saavuttaisit sen jo paljon aiemmin?
               </p>
             </div>
@@ -77,16 +80,14 @@ const IndexPage = () => {
             </Row>
             <div className="spacer">
             </div>
-            <div>
+            <div class="contact">
               <h2>
                 Ota yhteyttä
               </h2>
-              <p className="m-0">
-                ultrices@phiabo.com
+              <p className="mt-5">
+                info@phiabo.com
               </p>
-              <p>
-                +358 44 000 0000
-              </p>
+              <div id="plants"><Plants></Plants></div>
             </div>
           </Container>
         </Layout>

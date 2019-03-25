@@ -44,20 +44,11 @@ const Layout = ({ children }) => (
                   href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|Share+Tech+Mono"
                   rel="stylesheet"
                 />
+                <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Open+Sans:400,600,700" rel="stylesheet" />
               </Helmet>
               {children}
             </div>
               <footer className="text-center pb-1">
-            <Container>
-                <div>Icons made by <a href="https://www.freepik.com/"
-                                 title="Freepik">Freepik</a> from <a
-                                                                   href="https://www.flaticon.com/"
-                                                                   title="Flaticon">www.flaticon.com</a>
-                  . Licensed by <a
-                                 href="http://creativecommons.org/licenses/by/3.0/"
-                                 title="Creative Commons BY 3.0"
-                                 target="_blank">CC 3.0 BY</a></div>
-            </Container>
               </footer>
           </>
       )}

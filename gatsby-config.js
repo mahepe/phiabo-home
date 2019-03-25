@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Phiabo`,
-        description: `Miltä yrityksesi liiketoiminta näyttää vuonna 2025?`,
+        title: `phiabo`,
+        description: `Miltä yrityksesi liiketoiminta näyttää vuonna 2030?`,
         author: ``
     },
     plugins: [
