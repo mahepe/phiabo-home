@@ -6,6 +6,11 @@ $color5: #ff2800;
 $color6: #fff;
 $color7: rgba(29, 45, 68, 1);
 
+@media only screen and (max-width: 600px) {
+    .mobile-pt-5{
+        padding-top: 3rem!important
+    }
+}
 #contact{
     background-color: $color4;
 }
@@ -47,36 +52,36 @@ $color7: rgba(29, 45, 68, 1);
 }
 
 #human svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
 }
 
 #plants {
-  position: absolute;
-  width: 100%;
-  top: -4em;
-  z-index: -1;
-  svg {
-    z-index: -10;
-    display: block;
-    margin: auto;
-  }
+    position: absolute;
+    width: 100%;
+    top: -4em;
+    z-index: -1;
+    svg {
+        z-index: -10;
+        display: block;
+        margin: auto;
+    }
 }
 
 #home {
-  position: absolute;
-  right: 0;
-  top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 
-  @media (max-width: 1024px) {
-    display: none;
-  }
+    @media (max-width: 1024px) {
+        display: none;
+    }
 }
 
 .info {
-  line-height: 2.2rem;
+    line-height: 2.2rem;
 }
 
 html {
@@ -150,15 +155,15 @@ h1 {
     margin: 0.67em 0;
 
     &.logo {
-      font-size: 5rem;
-      font-weight: 700;
-      color: $color5;
-      text-shadow: 1px 1px 1px #000000c2;
-      font-family: 'Lobster Two', cursive;
+        font-size: 5rem;
+        font-weight: 700;
+        color: $color5;
+        text-shadow: 1px 1px 1px #000000c2;
+        font-family: 'Lobster Two', cursive;
     }
 }
 .contact {
-  position: relative;
+    position: relative;
 }
 mark {
     background-color: #ff0;
