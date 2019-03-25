@@ -1,10 +1,18 @@
 $color1: rgba(1, 4, 0, 1);
 $color2: #30499B;
 $color3: rgba(255, 251, 252, 1);
-$color4: rgba(98, 187, 193, 1);
+$color4: #22ccd8;
 $color5: #ff2800;
 $color6: #fff;
 $color7: rgba(29, 45, 68, 1);
+
+#contact{
+    background-color: $color4;
+}
+.bg-color-blue{
+    background-color: $color2 !important;
+    color: $color6 !important;
+}
 
 #banner_base{
     background-color: $color2;

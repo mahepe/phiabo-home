@@ -70,26 +70,64 @@ const IndexPage = () => {
                 jos saavuttaisit sen jo paljon aiemmin?
               </p>
             </div>
-            <Row className="mt-5 mb-5">
-              {ListItem((<Brain className="highlight m-3" style={{width: '100px'}} />),
-                        "Tekoäly")}
-              {ListItem((<Cloud className="highlight m-3" style={{width: '100px'}} />),
-                        "Pilvipalvelut")}
-              {ListItem((<Settings className="highlight m-3" style={{width: '100px'}} />),
-                        "Integraatiot")}
-            </Row>
+          </Container>
+          <div className="bg-color-blue">
+            <div className="diagonal_cut" style={{position: 'relative'}}>
+              <div className="p-4 text-left">
+              </div>
+            </div>
+          </div>
+          <div className="bg-color-blue">
+            <Container className="p-5">
+              <div>
+                <div className="spacer">
+                </div>
+                <h2>
+                  Miten autamme?
+                </h2>
+                <p className="mt-5 info">
+                  <ul>
+                    <li><b>API kehitykset ja integraatiot:</b> Rakennamme, ylläpidämme  ja
+                      päivitämme niin GraphQL, REST kuin SOAP rajapintanne.
+                    </li>
+                    <li><b>Verkkosivut:</b> Rakennamme, ylläpidämme ja
+                      päivitämme verkkosivunne.
+                    </li>
+                    <li><b>Tietokantapalvelut:</b> Datamigraatiot, ETL prosessit
+                      ja Data Warehouse auditointi sekä ylläpito.
+                    </li>
+                    <li><b>Pilvialustojen auditointi ja käyttöönotto:</b> Autamme
+                      yritystäsi pilvialustan valitsemisessa ja sen
+                      ylläpidossa.
+                    </li>
+                    <li><b>Tekoäly- ja analytiikkapalvelut:</b> Rakennamme
+                      yrityksellenne niin konenäkemiseen, kuin luonnollisen
+                      kielen käsittelyyn perustuvia ohjelmistoratkaisuja.
+                    </li>
+                    <li><b>Liiketoiminnan kehityspalvelut:</b> Toimimme
+                      strategisena kumppanina liiketoiminnan kehittämisessä.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+              <div className="spacer">
+              </div>
+            </Container>
+          </div>
+          <div id="contact">
+          <Container className="p-5">
             <div className="spacer">
             </div>
-            <div class="contact">
+            <div className="text-center">
               <h2>
                 Ota yhteyttä
               </h2>
               <p className="mt-5">
                 info@phiabo.com
               </p>
-              <div id="plants"><Plants></Plants></div>
             </div>
           </Container>
+          </div>
         </Layout>
     );};
 

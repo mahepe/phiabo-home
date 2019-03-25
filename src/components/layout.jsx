@@ -48,8 +48,6 @@ const Layout = ({ children }) => (
               </Helmet>
               {children}
             </div>
-              <footer className="text-center pb-1">
-              </footer>
           </>
       )}
     />
