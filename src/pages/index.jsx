@@ -51,8 +51,8 @@ const IndexPage = () => {
                 laajaan kirjoon liiketoiminnan haasteita. Oli kyseessä sitten
                 rutiininomaisten tehtävien automatisointi tekoälyn keinoin tai modernin pilvialustan käyttöönotto,
                 autamme sinua saavuttamaan digitaalisten valmiuksien uuden
-                tason. Miltä yrityksesi liiketoiminta näyttää vuonna 2030? Mitä
-                jos saavuttaisit sen jo paljon aiemmin?
+                tason. Miltä yrityksesi liiketoiminta näyttää kymmenen vuoden
+                kuluttua? Mitä jos saavuttaisit sen jo paljon aiemmin?
               </p>
             </div>
           </Container>
