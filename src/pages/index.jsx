@@ -3,8 +3,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Human from "../images/hop.svg";
+import Human from "../images/standing-5.svg";
 import Home from "../images/Home.svg";
+
+import Human2 from "../images/sitting-1.svg";
+import Human3 from "../images/sitting-8.svg";
+
 import { useStaticQuery, graphql } from "gatsby";
 
 const IndexPage = () => {
@@ -56,14 +60,7 @@ const IndexPage = () => {
               </p>
             </div>
           </Container>
-          <div className="bg-color-blue">
-            <div className="diagonal_cut" style={{position: 'relative'}}>
-              <div className="p-4 text-left">
-              </div>
-            </div>
-          </div>
-          <div className="bg-color-blue">
-            <Container className="pb-5 pl-5 pr-5 mobile-pt-5">
+          <Container className="pb-5 pl-5 pr-5 mobile-pt-5">
               <div>
                 <div className="spacer">
                 </div>
@@ -95,15 +92,11 @@ const IndexPage = () => {
                   </ul>
                 </p>
               </div>
-              <div className="spacer">
-              </div>
-            </Container>
-          </div>
-          <div id="contact">
-          <Container className="p-5">
-            <div className="spacer">
-            </div>
-            <div className="text-center">
+          </Container>
+          <Container className="p-5 contact text-center">
+            <div id="human2"><Human2></Human2></div>
+            <div id="human3"><Human3></Human3></div>
+            <div className="mt-5">
               <h2>
                 Ota yhteyttä
               </h2>
@@ -112,7 +105,6 @@ const IndexPage = () => {
               </p>
             </div>
           </Container>
-          </div>
         </Layout>
     );};
 
