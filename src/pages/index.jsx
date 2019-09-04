@@ -33,7 +33,7 @@ const IndexPage = () => {
           <div id="banner_base">
             <div className="diagonal_cut">
               <div className="p-4 text-left">
-                <h1 class="logo">phiabo</h1>
+                <h1 class="logo">three point</h1>
               </div>
             </div>
             <div id="banner" className="align-items-center d-flex justify-content-center">
@@ -76,13 +76,13 @@ const IndexPage = () => {
               <p className="mt-5 info">
                 <ul>
                   <li><b>Rajapinnat ja integraatiot:</b> Rakennamme, ylläpidämme  ja
-                    päivitämme niin GraphQL, REST kuin SOAP rajapintanne.
+                    päivitämme niin GraphQL-, REST- kuin SOAP- rajapintanne.
                   </li>
                   <li><b>Verkkosivut:</b> Rakennamme, ylläpidämme ja
                     päivitämme verkkosivunne.
                   </li>
-                  <li><b>Tietokantapalvelut:</b> Datamigraatiot, ETL prosessit
-                    ja Data Warehouse auditointi sekä ylläpito.
+                  <li><b>Tietokantapalvelut:</b> Datamigraatiot, ETL-prosessit
+                    ja Data Warehouse -auditointi sekä -ylläpito.
                   </li>
                   <li><b>Pilvialustojen auditointi ja käyttöönotto:</b> Autamme
                     yritystäsi pilvialustan valitsemisessa ja sen
